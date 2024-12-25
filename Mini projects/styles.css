@@ -1,12 +1,12 @@
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
-  padding: 20px;
+  padding: 20px;   /* makes space, adds more room */
 }
 
 h1 {
   font-size: 40px;
-  margin-top: 0;
+  margin-top: 0;     /* outter most of box model */
   margin-bottom: 15px;
 }
 
@@ -14,7 +14,7 @@ h2 {
   font-size: 30px;
 }
 
-.established {
+.established {     /* allows us to call on class by doing .class */
   font-style: italic;
 }
 
@@ -25,7 +25,7 @@ h1, h2, p {
 .menu {
   width: 80%;
   background-color: burlywood;
-  margin-left: auto;
+  margin-left: auto;     /* margin left and right auto makes it center */
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
@@ -83,11 +83,11 @@ a {
   color: black;
 }
 
-a:visited {
+a:visited {     /* link becomes black if pressed */
   color: black;
 }
 
-a:hover {
+a:hover {        /* changes color while mouse is hovering link */
   color: brown;
 }
 
