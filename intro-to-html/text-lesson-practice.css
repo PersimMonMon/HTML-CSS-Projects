@@ -1,0 +1,200 @@
+.Tahoma-text {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.big-sale-text {
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sale-end-text {
+  font-family: Arial;
+  color: red;
+  margin-top: 0px;
+
+}
+
+.html-css-title {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.sub-title {
+  color: gray;
+  font-family: Verdana; 
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.description {
+  font-family: Verdana;
+  width: 300px;
+}
+
+.start-text {
+  color: white;
+  background-color: green;
+  border-radius: 6px;
+  width: 100px;
+  padding: 8px 8px;
+  font-size: 13px;
+  font-family: Verdana;
+  text-align: center;
+}
+
+.shopping-text {
+  font-family: Arial; 
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.apple-text {
+  font-family: Arial;
+  text-align: center;
+  font-size: 15px;
+}
+
+.learn-text {
+  color: rgb(39, 106, 183);
+  text-align: center;
+  font-family: Arial;
+  padding: 0px 300px;
+}
+
+.hover-text {
+  cursor: pointer;
+}
+
+.hover-text:hover {
+  text-decoration: underline;
+}
+
+.value {
+  font-size: 25px;
+  font-family: Arial;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.currency {
+  color: gray;
+  display: inline-block;
+  font-family: Arial;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.green-text {
+  color: green;
+  margin-top: 0px;
+  font-family: Arial;
+  margin-bottom: 0px;
+}
+
+.after-hours {
+  color: gray;
+  margin-top: 8px;
+  font-family: Arial;
+  margin-bottom: 50px;
+}
+
+.red-text {
+  color: rgb(210, 20, 20);
+}
+
+.code-camp-title {
+  margin-bottom: 7px;
+  font-family: Arial;
+}
+
+.gray-camp{
+  color: gray;
+}
+
+.code-camp-description {
+  margin-top: 0px;
+  font-family: Arial;
+  width: 500px;
+}
+
+.chp_it-text {
+  font-family: Arial;
+}
+
+.chp_it-decor {
+  color: rgb(40, 163, 215);
+}
+
+.chp_it-decor:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+  .orange-text {
+    color: rgb(225, 148, 5);
+    text-align: center;
+    font-size: 13px;
+    margin-top: 200px;
+    font-family: Arial;
+    margin-bottom: 0px;
+  }
+
+  .macbook-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+
+  .supercharge-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .pricing {
+    font-family: Arial;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(51, 50, 50);
+    margin-top: 10px;
+    font-weight: lighter;
+  }
+
+  .buy-text {
+    color: white;
+    text-align: center;
+    margin-bottom: 250px;
+    font-family: Arial;
+  }
+
+  .blue-text {
+    background-color: rgb(22, 116, 230);
+    padding: 5px 13px;
+    border-radius: 35px;
+    cursor: pointer;
+  }
+
+  .blue-text:active {
+    background-color: rgb(5, 92, 198);
+  }
+
+  .mac-link {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
