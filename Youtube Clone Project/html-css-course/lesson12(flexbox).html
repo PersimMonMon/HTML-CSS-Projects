@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson12</title>
+  </head>
+  <body>
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    ">
+    <div style="background-color: lightblue; width: 200px;">200px</div>
+    <div style="background-color: lightpink; width: 75px;">75px</div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: lightblue; width: 50px;">item1</div>
+    <div style="background-color: lightpink; flex: 1;">item2</div>
+    <div style="background-color: lightblue; width: 75px;">item3</div>
+    </div>
+    
+    <div style="
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 12px;
+      margin-top: 20px;
+      justify-content: space-between;
+      background-color: white;
+      border-style: solid;
+      border-color: gray;
+      ;
+      ">
+      <div style="background-color: lightblue;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+      <div style="background-color: lightblue;">item3</div>
+      <div style="background-color: lightpink;">item4</div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-style: solid;
+    align-items: center;
+    justify-content: space-between;
+    border-color: gray;
+    ">
+      <div class="one" style="background-color: lightpink;">item1</div>
+      <div class="two" style="background-color: lightpink;">item2</div>
+    </div>
+
+    <style>
+      .white-container {
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Arial;
+        box-shadow: 0px 0px 5px;
+        border-radius: 5px;
+        padding: 8px 15px;
+        width: 250px;
+      }
+      
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2px 5px;
+      }
+
+      .notifications {
+        color: white;
+        background-color: rgb(49, 109, 245);
+        padding: 3px 11px;
+        border-radius: 10px;
+      }
+
+    </style>
+
+    <div class="white-container">
+      <div class="flexbox">
+        <div>Home</div>
+        <div class="notifications">14</div>
+      </div>
+      <div class="flexbox">
+        <div>Notifications</div>
+        <div class="notifications">3</div>
+      </div>
+      <div class="flexbox">
+        <div>Messages</div>
+        <div class="notifications">5</div>
+      </div>
+    </div>
+    
+
+    <style>
+      .purple-container-flex {
+        background-color: rgb(137, 49, 137);
+        font-family: Arial;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
+      }
+    </style>
+
+
+    <div class="purple-container-flex">
+      <div class="home-text">Home</div>
+      <input class="textbox-search" placeholder="Search">
+      <button class="download-button">Download</button>
+    </div>
+  </body>
+
+
+  
+
+
+
+
+  </body>
+</html>

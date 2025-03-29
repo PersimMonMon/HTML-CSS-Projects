@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 47px;
+  background-color: white;
+}
+
+.start-header {
+  color: white;
+  background-color: blue;
+  width: 170px;
+  
+}
+
+.center-header {
+  color: white;
+  flex: 1;
+  background-color: pink;
+  margin-left: 83px;
+  margin-right: 17px;
+  max-width: 660px;
+}
+
+.end-header {
+  color: white;
+  width: 220px;
+  background-color: blue;
+}
