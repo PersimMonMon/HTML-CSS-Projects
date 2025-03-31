@@ -52,71 +52,142 @@
       <div class="two" style="background-color: lightpink;">item2</div>
     </div>
 
-    <style>
-      .white-container {
-        border: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-family: Arial;
-        box-shadow: 0px 0px 5px;
-        border-radius: 5px;
-        padding: 8px 15px;
-        width: 250px;
-      }
-      
-      .flexbox {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 2px 5px;
-      }
-
-      .notifications {
-        color: white;
-        background-color: rgb(49, 109, 245);
-        padding: 3px 11px;
-        border-radius: 10px;
-      }
-
-    </style>
-
-    <div class="white-container">
-      <div class="flexbox">
-        <div>Home</div>
-        <div class="notifications">14</div>
-      </div>
-      <div class="flexbox">
-        <div>Notifications</div>
-        <div class="notifications">3</div>
-      </div>
-      <div class="flexbox">
-        <div>Messages</div>
-        <div class="notifications">5</div>
-      </div>
-    </div>
+  <style>
+    .white-container {
+      border: none;
+      margin-top: 10px;
+      box-shadow: 0px 0px 4px;
+      border-radius: 10px;
+      width: 250px;
+      font-family: Arial;
+    }
     
+    .flexbox-it {
+      display: flex;
+      padding: 5px 10px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
-    <style>
-      .purple-container-flex {
-        background-color: rgb(137, 49, 137);
-        font-family: Arial;
-        color: white;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px 10px;
-      }
-    </style>
+    .notifications {
+      background-color: rgb(49, 109, 245);
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: white;
+    }
+  </style>
 
 
-    <div class="purple-container-flex">
-      <div class="home-text">Home</div>
-      <input class="textbox-search" placeholder="Search">
-      <button class="download-button">Download</button>
+
+  <div class="white-container">
+    <div class="flexbox-it">Home
+      <div class="notifications">14</div>
     </div>
-  </body>
+    <div class="flexbox-it">Notification
+      <div class="notifications">3</div>
+    </div>
+    <div class="flexbox-it">Messages
+      <div class="notifications">5</div>
+    </div>
+  </div>
 
+  
+  <style>
+    .purple-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      background-color: purple;
+      align-items: center;
+      justify-content: space-between;
+      font-family: Arial;
+      padding: 15px 15px;
+    }
+
+    .home-text {
+      color: white;
+      font-weight: bold;
+      width: 100px;
+      margin-right: 40px;
+    }
+
+    .search-bar {
+      flex: 1;
+      max-width: 500px;
+      border-radius: 20px;
+      border: none;
+      padding: 10px 10px;
+      margin-right: 40px;
+    }
+
+    .download-button {
+      color: white;
+      width: 150px;
+      background-color: purple;
+      border-width: 1px;
+      border-radius: 2px;
+      border-color: white;
+      border-style: solid;
+      padding: 10px 15px;
+      font-weight: 550;
+    }
+  </style>
+
+  <div class="purple-container">
+    <div class="home-text">Home</div>
+    <input class="search-bar" placeholder="Search"></input>
+    <button class="download-button">Download</button>
+  </div>
+
+
+
+
+  <style>
+    .flex-row {
+      display: flex;
+      flex-direction: row;
+      width: 300px;
+      margin-top: 10px;
+      background-color: white;
+      align-items: center;
+      padding: 10px 10px;
+      font-family: Arial;
+    }
+    
+    .flex-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .author-logo {
+      flex: 1;
+      max-width: 50px;
+      border-radius: 25px;
+      margin-right: 15px;
+    }
+
+    .follow-button {
+      background-color: rgb(29, 155, 240);
+      padding: 10px 10px;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+
+  <div>
+    <div class="flex-row">
+        <img class="author-logo" src="channel-pictures/grass.jpg">
+      <div class="flex-column">
+        <div class="Username"><strong>oliver</strong></div>
+        <div class="Nickname">the cat</div>
+        <div class="popularity">Popular</div>
+      </div>
+      <div class="follow-button">Follow</div>
+    </div>
+  </div>
 
   
 
