@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson12</title>
+  </head>
+  <body>
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    ">
+    <div style="background-color: lightblue; width: 200px;">200px</div>
+    <div style="background-color: lightpink; width: 75px;">75px</div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    ">
+    <div style="background-color: lightblue; width: 50px;">item1</div>
+    <div style="background-color: lightpink; flex: 1;">item2</div>
+    <div style="background-color: lightblue; width: 75px;">item3</div>
+    </div>
+    
+    <div style="
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 12px;
+      margin-top: 20px;
+      justify-content: space-between;
+      background-color: white;
+      border-style: solid;
+      border-color: gray;
+      ;
+      ">
+      <div style="background-color: lightblue;">item1</div>
+      <div style="background-color: lightpink;">item2</div>
+      <div style="background-color: lightblue;">item3</div>
+      <div style="background-color: lightpink;">item4</div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-style: solid;
+    align-items: center;
+    justify-content: space-between;
+    border-color: gray;
+    ">
+      <div class="one" style="background-color: lightpink;">item1</div>
+      <div class="two" style="background-color: lightpink;">item2</div>
+    </div>
+
+  <style>
+    .white-container {
+      border: none;
+      margin-top: 10px;
+      box-shadow: 0px 0px 4px;
+      border-radius: 10px;
+      width: 250px;
+      font-family: Arial;
+    }
+    
+    .flexbox-it {
+      display: flex;
+      padding: 5px 10px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .notifications {
+      background-color: rgb(49, 109, 245);
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: white;
+    }
+  </style>
+
+
+
+  <div class="white-container">
+    <div class="flexbox-it">Home
+      <div class="notifications">14</div>
+    </div>
+    <div class="flexbox-it">Notification
+      <div class="notifications">3</div>
+    </div>
+    <div class="flexbox-it">Messages
+      <div class="notifications">5</div>
+    </div>
+  </div>
+
+  
+  <style>
+    .purple-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      background-color: purple;
+      align-items: center;
+      justify-content: space-between;
+      font-family: Arial;
+      padding: 15px 15px;
+    }
+
+    .home-text {
+      color: white;
+      font-weight: bold;
+      width: 100px;
+      margin-right: 40px;
+    }
+
+    .search-bar {
+      flex: 1;
+      max-width: 500px;
+      border-radius: 20px;
+      border: none;
+      padding: 10px 10px;
+      margin-right: 40px;
+    }
+
+    .download-button {
+      color: white;
+      width: 150px;
+      background-color: purple;
+      border-width: 1px;
+      border-radius: 2px;
+      border-color: white;
+      border-style: solid;
+      padding: 10px 15px;
+      font-weight: 550;
+    }
+  </style>
+
+  <div class="purple-container">
+    <div class="home-text">Home</div>
+    <input class="search-bar" placeholder="Search"></input>
+    <button class="download-button">Download</button>
+  </div>
+
+
+
+
+  <style>
+    .flex-row {
+      display: flex;
+      flex-direction: row;
+      width: 300px;
+      margin-top: 10px;
+      background-color: white;
+      align-items: center;
+      padding: 10px 10px;
+      font-family: Arial;
+    }
+    
+    .flex-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+
+    .author-logo {
+      flex: 1;
+      max-width: 50px;
+      border-radius: 25px;
+      margin-right: 15px;
+    }
+
+    .follow-button {
+      background-color: rgb(29, 155, 240);
+      padding: 10px 10px;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+
+  <div>
+    <div class="flex-row">
+        <img class="author-logo" src="channel-pictures/grass.jpg">
+      <div class="flex-column">
+        <div class="Username"><strong>oliver</strong></div>
+        <div class="Nickname">the cat</div>
+        <div class="popularity">Popular</div>
+      </div>
+      <div class="follow-button">Follow</div>
+    </div>
+  </div>
+
+  
+
+
+
+
+  </body>
+</html>

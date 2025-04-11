@@ -1,0 +1,61 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 25px;
+}
+
+.video-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.thumbnail {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.logo-and-info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.author-logo-container {
+  width: 50px;
+}
+
+.author-logo {
+  width: 35px;
+  vertical-align: top;
+  margin-top: 15px;
+  border-radius: 25px;
+}
+
+.video-text-container {
+  vertical-align: top;
+}
+
+.video-title {
+  width: 230px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+} 
+
+.video-author {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  color: rgb(170, 170, 170);
+}
+.video-stats {
+  margin-top: 0px;
+  font-size: 14px;
+  color: rgb(170, 170, 170);
+}
+
+.search-box {
+  display: block;
+}
