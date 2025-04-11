@@ -1,0 +1,124 @@
+/* GLOBAL stylesheet */
+
+/*  Add a selector for EACH of the tags used in the <body>
+    area of the HTML files. 
+
+    Add a variety of properties:values to ensure your website
+    __is easy to read,
+    __uses new colors and fonts (not the default black or Times font),
+    __has sufficient spacing on either side of a border, 
+    __follows all instructions.
+*/
+
+body {
+    font-size: 17px;
+    font-family: Georgia;
+    margin: 25px 25px 0px 25px;
+    color: rgb(56, 37, 37);
+    background-color: rgb(255, 247, 229);
+}
+
+header{
+    padding: 10px 0px 10px 55px;
+    background-color: rgb(231, 146, 85);
+}
+
+main {
+    padding: 0px 0px 10px 55px;
+}
+
+nav {
+    margin: 0px 5px 0px 75px;
+    padding: 0px;
+    border: none;
+    color: none;
+    background-color: rgb(255, 247, 229);
+}
+
+nav a, 
+nav a:visited {
+    margin: 0px 15px 0px 0px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(73, 173, 231);
+    text-decoration: none;
+}  
+
+nav a:hover {
+    margin: 0px 15px 0px 0px;
+    padding: 7px;
+    color: rgb(73, 173, 231);
+    background-color: white;
+}
+
+footer {
+    padding: 30px 0px 30px 55px;
+    background-color: rgb(231, 146, 85);
+    margin-top: 180px;
+}
+
+footer#contact-footer{
+    margin-top: 475px;
+}
+
+h1, h2 {
+    font-family: Cursive;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+table {
+    padding: 15px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(252, 61, 61);
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+thead {
+    padding: 0px;
+    border-style: dotted;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+td.price{
+    padding: 5px 20px 5px 20px;
+}
+
+tr td {
+    padding: 10px 80px 10px 15px;
+    border-style: dotted;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+
+/* Add more selectors to control each letter separately. */
+#o, #s, #u {
+    font-size: 100px;
+    font-family: Georgia;
+    padding-right: 10px;
+}
+
+#o {
+    color: orange;
+}
+
+#s {
+    color: black;
+    position: relative; 
+    top: 65px;
+}
+
+#u {
+    color: grey;
+    position: relative;
+    top: 150px;
+}
+
+
+
