@@ -83,7 +83,6 @@ thead {
     padding: 0px;
     border-style: dotted;
     border-width: 1px;
-    border-collapse: collapse;
 }
 
 td.price{
@@ -94,7 +93,6 @@ tr td {
     padding: 10px 80px 10px 15px;
     border-style: dotted;
     border-width: 2px;
-    border-collapse: collapse;
 }
 
 /* Add more selectors to control each letter separately. */
